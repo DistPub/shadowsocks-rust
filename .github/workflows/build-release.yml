@@ -22,7 +22,7 @@ jobs:
       fail-fast: false
       matrix:
         platform:
-          - target: armv7l-unknown-linux-gnueabihf 
+          - target: armv7-unknown-linux-gnueabi 
             toolchain: stable
           # - target: i686-unknown-linux-musl
           #   toolchain: stable
